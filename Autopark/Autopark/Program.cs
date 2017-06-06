@@ -21,7 +21,7 @@ namespace Autopark
             Console.WriteLine("В автопарке находятся: ");
             for (int i = 1; i <= autosAmount; i++)
             {
-                car = rand.Next(2) + 1;
+                car = rand.Next(9) + 1;
                 switch (car)
                 {
                     case 1:
